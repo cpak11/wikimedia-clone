@@ -1,0 +1,17 @@
+
+
+#intro,#maincontent,footer{margin:0 auto;width:1400px;font-family:sans-serif;}
+
+#intro{font-size:1.25rem;}
+
+.centertxt{text-align:center;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.right0{text-align:right;}
+
+#maincontent{display:flex;flex-wrap:wrap;justify-content:center;padding-top:50px;}
+#maincontent .item{width:300px;height:175px;display:flex;justify-content:center;}
+
+footer{border-top:1px solid silver;}
+footer span{margin-right:15px;}
+footer span:last-child{margin-right:0;}
